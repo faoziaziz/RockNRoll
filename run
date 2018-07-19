@@ -1,0 +1,6 @@
+#!/bin/sh
+
+sudo cp webdepan.conf /etc/init/webdepan.conf
+
+sudo stop webdepan
+sudo start webdepan
